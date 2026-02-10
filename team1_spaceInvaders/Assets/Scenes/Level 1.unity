@@ -1787,6 +1787,8 @@ MonoBehaviour:
   speed: 7
   minX: -10
   maxX: 10
+  projectile: {fileID: 5374129239755748773, guid: 3169e321e8ad29e429a537184f3d2931, type: 3}
+  fireDelay: 1
 --- !u!1 &1135020798
 GameObject:
   m_ObjectHideFlags: 0
