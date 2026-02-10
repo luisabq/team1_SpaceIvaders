@@ -6,8 +6,7 @@ public class PlayerScript : MonoBehaviour
     [Header("Movement Parameters")]
     public float speed = 5f;
 
-    public float minX = -5f;
-    public float maxX = 5f;
+    public float limit = 5f;
 
     private float moveInput = 0f;
 
@@ -37,7 +36,7 @@ public class PlayerScript : MonoBehaviour
         transform.Translate(Vector3.right * moveInput * speed * Time.deltaTime);
 
         Vector3 pos = transform.position;
-        pos.x = Mathf.Clamp(pos.x, minX, maxX);
+        pos.x = Mathf.Clamp(pos.x, -limit, limit);
         transform.position = pos;
 
         if (Keyboard.current.spaceKey.isPressed && counter >= fireDelay)
