@@ -1214,7 +1214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
   speed: 7
-  limit: 10
+  limit: 14
   projectile: {fileID: 5374129239755748773, guid: 3169e321e8ad29e429a537184f3d2931, type: 3}
   fireDelay: 0.5
 --- !u!4 &995014734 stripped
