@@ -287,7 +287,7 @@ GameObject:
   - component: {fileID: 594426508}
   - component: {fileID: 594426507}
   m_Layer: 5
-  m_Name: buttonContainer (1)
+  m_Name: quitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 1030264852}
   - component: {fileID: 1030264851}
   m_Layer: 5
-  m_Name: buttonContainer
+  m_Name: playButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1427,7 +1427,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1704249856}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1857621357}
+        m_TargetAssemblyTypeName: mainScreenScript, Assembly-CSharp
+        m_MethodName: QuitApp
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1704249856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1478,6 +1490,7 @@ GameObject:
   - component: {fileID: 1857621355}
   - component: {fileID: 1857621354}
   - component: {fileID: 1857621353}
+  - component: {fileID: 1857621357}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1568,6 +1581,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1857621357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857621352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f887b36061dcf47afad81f7805899d9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::mainScreenScript
 --- !u!1 &1870677831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1861,7 +1886,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2121297158}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1857621357}
+        m_TargetAssemblyTypeName: mainScreenScript, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level 1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2121297158
 MonoBehaviour:
   m_ObjectHideFlags: 0
