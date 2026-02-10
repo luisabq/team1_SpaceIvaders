@@ -28,10 +28,10 @@ public class PlayerScript : MonoBehaviour
         moveInput = 0f;
         counter += Time.deltaTime;
 
-        if (Keyboard.current.aKey.isPressed)
+        if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
             moveInput -= 1f;
 
-        if (Keyboard.current.dKey.isPressed)
+        if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed)
             moveInput += 1f;
 
         transform.Translate(Vector3.right * moveInput * speed * Time.deltaTime);
