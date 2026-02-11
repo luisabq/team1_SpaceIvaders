@@ -15,7 +15,6 @@ public class DeathManager : MonoBehaviour
     public Sprite[] deathFrames;
     public float frameTime = 0.15f;
 
-    private bool dead = false;
         void Start()
     {
         playerPos = transform.position;
@@ -24,15 +23,13 @@ public class DeathManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("EnemyProjectile") && !dead)
+        if (collision.CompareTag("EnemyProjectile"))
         {
-            dead = true;
-
             GameObject[] projectiles = GameObject.FindGameObjectsWithTag("EnemyProjectile");
 
-            foreach (GameObject proj in projectiles)
+            foreach (GameObject projectile in projectiles)
             {
-                Destroy(proj);
+                Destroy(projectile);
             }
 
             StartCoroutine(Die());
@@ -41,7 +38,6 @@ public class DeathManager : MonoBehaviour
 
     IEnumerator Die()
     {
-        dead = true;
         lives--;
         Debug.Log("Life lost)");
 
@@ -67,6 +63,5 @@ public class DeathManager : MonoBehaviour
 
         Time.timeScale = 1f;
         playerScript.enabled = true;
-        dead = false;
     }
 }
