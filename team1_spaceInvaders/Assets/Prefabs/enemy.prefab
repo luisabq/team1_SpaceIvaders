@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 8368197296831152303}
   - component: {fileID: 205812887984220613}
   - component: {fileID: 6499812052291823775}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -104,6 +104,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1849e5c9935f49745a6418b850d14c63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyScript
+  projectile: {fileID: 8639471200930441369, guid: 3398eebd9e62e0c4489c71d178652fd3, type: 3}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  enemyFireRate: 0.2
 --- !u!61 &6499812052291823775
 BoxCollider2D:
   m_ObjectHideFlags: 0

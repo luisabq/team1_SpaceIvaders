@@ -18,11 +18,12 @@ public class ProjectileScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
-        private void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (!collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("EnemyProjectile") || other.CompareTag("Enemy"))
         {
             Destroy(gameObject);
+            Destroy(other.gameObject);
         }
     }
 }
