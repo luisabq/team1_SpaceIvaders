@@ -29,7 +29,7 @@ public class DeathManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("EnemyProjectile"))
+        if (collision.CompareTag("EnemyProjectile") || collision.CompareTag("Enemy"))
         {
             GameObject[] projectiles = GameObject.FindGameObjectsWithTag("EnemyProjectile");
 
@@ -62,6 +62,10 @@ public class DeathManager : MonoBehaviour
         {
             transform.position = playerPos;
             enemies.transform.position = enemyPos;
+            foreach (GameObject obj in GameObject.FindGameObjectsWithTag("Pegasus"))
+            {
+                Destroy(obj);
+            }
         }
         else
         {

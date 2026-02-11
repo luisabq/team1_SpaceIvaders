@@ -39,5 +39,11 @@ public class ProjectileScript : MonoBehaviour
             Destroy(other.gameObject);
             scoreManager.AddScore(5);
         }
+        if (other.CompareTag("Pegasus"))
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+            scoreManager.AddScore(100);
+        }
     }
 }
