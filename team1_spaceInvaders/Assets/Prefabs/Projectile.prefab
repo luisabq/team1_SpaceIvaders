@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d09ecbe3272e204eaa76d56796a28ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ProjectileScript
-  projectileSpeed: 7
+  projectileSpeed: 10
   lifetime: 3
 --- !u!61 &7953597468460468812
 BoxCollider2D:

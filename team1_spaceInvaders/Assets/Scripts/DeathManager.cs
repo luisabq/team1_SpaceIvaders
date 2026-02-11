@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using TMPro;
 
 public class DeathManager : MonoBehaviour
 {
@@ -15,10 +16,14 @@ public class DeathManager : MonoBehaviour
     public Sprite[] deathFrames;
     public float frameTime = 0.25f;
 
+    public TextMeshProUGUI healthText;
+
         void Start()
     {
         playerPos = transform.position;
         enemyPos = enemies.transform.position;
+
+        healthText.text = ("Lives: " + lives);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -61,6 +66,7 @@ public class DeathManager : MonoBehaviour
             Debug.Log("Game Over");
         }
 
+        healthText.text = ("Lives: " + lives);
         Time.timeScale = 1f;
         playerScript.enabled = true;
     }
