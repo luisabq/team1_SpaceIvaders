@@ -31,7 +31,7 @@ public class ProjectileScript : MonoBehaviour
         {
             Destroy(gameObject);
             Destroy(other.gameObject);
-            scoreManager.AddScore(2);
+            scoreManager.AddScore(10);
         }
         if (other.CompareTag("Enemy"))
         {
