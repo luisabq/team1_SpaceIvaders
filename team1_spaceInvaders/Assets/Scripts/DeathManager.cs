@@ -13,7 +13,7 @@ public class DeathManager : MonoBehaviour
     private Vector3 enemyPos;
 
     public Sprite[] deathFrames;
-    public float frameTime = 0.15f;
+    public float frameTime = 0.25f;
 
         void Start()
     {
