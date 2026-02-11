@@ -9,6 +9,7 @@ public class DeathManager : MonoBehaviour
     public GameObject enemies;
     public PlayerScript playerScript;
     public SpriteRenderer spriteRenderer;
+    public GameOverManager gameOverManager;
 
     private Vector3 playerPos;
     private Vector3 enemyPos;
@@ -45,6 +46,7 @@ public class DeathManager : MonoBehaviour
     {
         lives--;
         Debug.Log("Life lost)");
+        healthText.text = ("Lives: " + lives);
 
         playerScript.enabled = false;
 
@@ -66,8 +68,12 @@ public class DeathManager : MonoBehaviour
             Debug.Log("Game Over");
         }
 
-        healthText.text = ("Lives: " + lives);
         Time.timeScale = 1f;
         playerScript.enabled = true;
+
+        if (lives <= 0)
+        {
+            gameOverManager.GameOver();
+        }
     }
 }
