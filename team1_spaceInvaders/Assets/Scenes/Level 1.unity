@@ -339,6 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1914101, guid: 70e812a36dc165c4ab172bd825c8477b, type: 3}
   - {fileID: 200812173, guid: 70e812a36dc165c4ab172bd825c8477b, type: 3}
@@ -559,6 +560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1914101, guid: 70e812a36dc165c4ab172bd825c8477b, type: 3}
   - {fileID: 200812173, guid: 70e812a36dc165c4ab172bd825c8477b, type: 3}
@@ -784,6 +786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: -1479792199, guid: becc2b2505b87714294522c2b7fc89d0, type: 3}
   - {fileID: -1446095500, guid: becc2b2505b87714294522c2b7fc89d0, type: 3}
@@ -1113,6 +1116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1576977323, guid: 263308ed9f673f7498a26797a397db43, type: 3}
   - {fileID: 1285431521, guid: 263308ed9f673f7498a26797a397db43, type: 3}
@@ -1351,6 +1355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1914101, guid: 70e812a36dc165c4ab172bd825c8477b, type: 3}
   - {fileID: 200812173, guid: 70e812a36dc165c4ab172bd825c8477b, type: 3}
@@ -1597,6 +1602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: -126111841, guid: b795c286beaf511459198b0141e19c6b, type: 3}
   - {fileID: 1237833290, guid: b795c286beaf511459198b0141e19c6b, type: 3}
@@ -1984,6 +1990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1055177367, guid: 6f42c00cde596b94ca7f216103d1480a, type: 3}
   - {fileID: -2105670266, guid: 6f42c00cde596b94ca7f216103d1480a, type: 3}
@@ -2401,6 +2408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: -1479792199, guid: becc2b2505b87714294522c2b7fc89d0, type: 3}
   - {fileID: -1446095500, guid: becc2b2505b87714294522c2b7fc89d0, type: 3}
@@ -2765,6 +2773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: -1479792199, guid: becc2b2505b87714294522c2b7fc89d0, type: 3}
   - {fileID: -1446095500, guid: becc2b2505b87714294522c2b7fc89d0, type: 3}
@@ -2990,6 +2999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: -126111841, guid: b795c286beaf511459198b0141e19c6b, type: 3}
   - {fileID: 1237833290, guid: b795c286beaf511459198b0141e19c6b, type: 3}
@@ -3241,6 +3251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1576977323, guid: 263308ed9f673f7498a26797a397db43, type: 3}
   - {fileID: 1285431521, guid: 263308ed9f673f7498a26797a397db43, type: 3}
@@ -3460,6 +3471,7 @@ GameObject:
   - component: {fileID: 993166145}
   - component: {fileID: 993166147}
   - component: {fileID: 993166148}
+  - component: {fileID: 993166149}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3500,6 +3512,7 @@ MonoBehaviour:
   fireDelay: 0.5
   readySprite: {fileID: 21300000, guid: 8beb9c3064a988541988f5438d025196, type: 3}
   notReadySprite: {fileID: 21300000, guid: d028f342d7048994dbc5afda8314c4a7, type: 3}
+  shootClip: {fileID: 8300000, guid: fb2b74931c6fcbc4cba42b6d69904633, type: 3}
 --- !u!61 &993166145
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3632,6 +3645,7 @@ MonoBehaviour:
   - {fileID: 1966047711, guid: 5fd45216e1188b547a3da2a57387d14b, type: 3}
   frameTime: 0.25
   healthText: {fileID: 925283053}
+  deathSound: {fileID: 8300000, guid: 5736105e54b222246a365c7e7077d19c, type: 3}
 --- !u!50 &993166148
 Rigidbody2D:
   serializedVersion: 5
@@ -3659,6 +3673,103 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!82 &993166149
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993166142}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.3
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!4 &995014734 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 402553951864593443, guid: b607e3a7bf29111439593ac79d57cb3c, type: 3}
@@ -3881,6 +3992,251 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b607e3a7bf29111439593ac79d57cb3c, type: 3}
+--- !u!1 &1120414194
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1120414196}
+  - component: {fileID: 1120414195}
+  - component: {fileID: 1120414198}
+  - component: {fileID: 1120414197}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1120414195
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120414194}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
+  m_Pitch: 1.1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1120414196
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120414194}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1120414197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120414194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfe402328bd9b874998575f2eaef2674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioManager
+  musicSource: {fileID: 1120414195}
+  sfxSource: {fileID: 1120414198}
+  backgroundMusic: {fileID: 8300000, guid: 0b5b36345a143724ea65ac9071f2b571, type: 3}
+  loseClip: {fileID: 8300000, guid: aae2299a8eaad32418aac622bc2aee13, type: 3}
+  victoryClip: {fileID: 8300000, guid: 9ab875c8c24d8bf4294924740119ebf9, type: 3}
+--- !u!82 &1120414198
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1120414194}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1135020798
 GameObject:
   m_ObjectHideFlags: 0
@@ -4450,6 +4806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: -126111841, guid: b795c286beaf511459198b0141e19c6b, type: 3}
   - {fileID: 1237833290, guid: b795c286beaf511459198b0141e19c6b, type: 3}
@@ -4639,6 +4996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: -126111841, guid: b795c286beaf511459198b0141e19c6b, type: 3}
   - {fileID: 1237833290, guid: b795c286beaf511459198b0141e19c6b, type: 3}
@@ -4947,6 +5305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: -1479792199, guid: becc2b2505b87714294522c2b7fc89d0, type: 3}
   - {fileID: -1446095500, guid: becc2b2505b87714294522c2b7fc89d0, type: 3}
@@ -5826,6 +6185,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1055177367, guid: 6f42c00cde596b94ca7f216103d1480a, type: 3}
   - {fileID: -2105670266, guid: 6f42c00cde596b94ca7f216103d1480a, type: 3}
@@ -6072,6 +6432,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1576977323, guid: 263308ed9f673f7498a26797a397db43, type: 3}
   - {fileID: 1285431521, guid: 263308ed9f673f7498a26797a397db43, type: 3}
@@ -6437,6 +6798,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1914101, guid: 70e812a36dc165c4ab172bd825c8477b, type: 3}
   - {fileID: 200812173, guid: 70e812a36dc165c4ab172bd825c8477b, type: 3}
@@ -6772,6 +7134,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1576977323, guid: 263308ed9f673f7498a26797a397db43, type: 3}
   - {fileID: 1285431521, guid: 263308ed9f673f7498a26797a397db43, type: 3}
@@ -7013,6 +7376,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1055177367, guid: 6f42c00cde596b94ca7f216103d1480a, type: 3}
   - {fileID: -2105670266, guid: 6f42c00cde596b94ca7f216103d1480a, type: 3}
@@ -7085,6 +7449,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1135020799}
     m_Modifications:
+    - target: {fileID: 205812887984220613, guid: b607e3a7bf29111439593ac79d57cb3c, type: 3}
+      propertyPath: deathClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 2e5bad5ef7bea55409b0dae10ac4219e, type: 3}
+    - target: {fileID: 205812887984220613, guid: b607e3a7bf29111439593ac79d57cb3c, type: 3}
+      propertyPath: shootClip
+      value: 
+      objectReference: {fileID: 8300000, guid: f68166fde9746fa44ba300bfd4107d8d, type: 3}
     - target: {fileID: 402553951864593443, guid: b607e3a7bf29111439593ac79d57cb3c, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -7666,6 +8038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a475d0fecc7fade498ce50a4e3e1e280, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ShieldTileScript
+  damageClip: {fileID: 8300000, guid: 6e5d7098c5c99eb4c829434176030db7, type: 3}
   damageStates:
   - {fileID: 1055177367, guid: 6f42c00cde596b94ca7f216103d1480a, type: 3}
   - {fileID: -2105670266, guid: 6f42c00cde596b94ca7f216103d1480a, type: 3}
@@ -7756,3 +8129,4 @@ SceneRoots:
   - {fileID: 302380670}
   - {fileID: 1692150562}
   - {fileID: 1515794384}
+  - {fileID: 1120414196}

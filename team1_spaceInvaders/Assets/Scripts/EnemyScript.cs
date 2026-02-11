@@ -2,6 +2,12 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    [Header("Audio")]
+    public AudioClip shootClip;
+    public AudioClip deathClip;
+
+    private AudioSource audioSource;
+
     public GameObject projectile;
 
     private float rayDistance = 10f;
@@ -9,6 +15,11 @@ public class EnemyScript : MonoBehaviour
 
     public float enemyFireRate = 0.2f;
     private float timer = 0f;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
     private void Update()
     {
@@ -23,6 +34,7 @@ public class EnemyScript : MonoBehaviour
                 if (Random.value < enemyFireRate)
                 {
                     Instantiate(projectile, transform.position, transform.rotation);
+                    audioSource.PlayOneShot(shootClip);
                 }
             }
         }
@@ -31,6 +43,7 @@ public class EnemyScript : MonoBehaviour
     {
         if (other.CompareTag("Projectile"))
         {
+            AudioManager.instance.PlaySFX(deathClip);
             Destroy(gameObject);
             Destroy(other.gameObject);
         }

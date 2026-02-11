@@ -22,10 +22,15 @@ public class PlayerScript : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    [Header("Audio")]
+    public AudioClip shootClip;
+    private AudioSource audioSource;
+
     private void Start()
     {
         counter = fireDelay;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -58,6 +63,7 @@ public class PlayerScript : MonoBehaviour
         {
             counter = 0f;
             Instantiate(projectile, transform.position, transform.rotation);
+            audioSource.PlayOneShot(shootClip);
         }
 
         if (counter >= fireDelay)

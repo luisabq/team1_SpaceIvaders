@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class ShieldTileScript : MonoBehaviour
 {
+    public AudioClip damageClip;
+
     private int health = 4;
 
     public Sprite[] damageStates;
@@ -24,10 +26,14 @@ public class ShieldTileScript : MonoBehaviour
         if (other.CompareTag("Projectile") || other.CompareTag("EnemyProjectile"))
         {
             Destroy(other.gameObject);
+
+                AudioManager.instance.PlaySFX(damageClip);
+
             health--;
         }
         else if (other.CompareTag("Enemy"))
         {
+            AudioManager.instance.PlaySFX(damageClip);
             Destroy(gameObject);
         }
 

@@ -19,12 +19,18 @@ public class DeathManager : MonoBehaviour
 
     public TextMeshProUGUI healthText;
 
-        void Start()
+    [Header("Audio")]
+    public AudioClip deathSound;
+    private AudioSource audioSource;
+
+    void Start()
     {
         playerPos = transform.position;
         enemyPos = enemies.transform.position;
 
         healthText.text = ("Lives: " + lives);
+
+        audioSource = GetComponent<AudioSource>();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -45,6 +51,7 @@ public class DeathManager : MonoBehaviour
     IEnumerator Die()
     {
         lives--;
+        audioSource.PlayOneShot(deathSound);
         Debug.Log("Life lost)");
         healthText.text = ("Lives: " + lives);
 
@@ -70,6 +77,8 @@ public class DeathManager : MonoBehaviour
         else
         {
             Debug.Log("Game Over");
+
+            AudioManager.instance.StopMusic();
         }
 
         Time.timeScale = 1f;
