@@ -6362,8 +6362,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PegasusSpawner
   pegasus: {fileID: 7249163408756858277, guid: fe5fb5bda1364d64aa0cd49d6d5f76d6, type: 3}
-  checkRate: 8
-  checkChance: 0.5
+  checkRate: 10
+  checkChance: 0.3
 --- !u!4 &1692150562
 Transform:
   m_ObjectHideFlags: 0
