@@ -77,8 +77,6 @@ public class DeathManager : MonoBehaviour
         else
         {
             Debug.Log("Game Over");
-
-            AudioManager.instance.StopMusic();
         }
 
         Time.timeScale = 1f;

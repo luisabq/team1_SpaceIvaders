@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
@@ -11,6 +12,34 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip victoryClip;
 
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("Scene Loaded: " + scene.name);
+
+        if (scene.name == "Level 1" || scene.name == "Level 2")
+        {
+            Debug.Log("Playing music");
+            if (!musicSource.isPlaying)
+            {
+                musicSource.Play();
+            }
+        }
+        else
+        {
+            Debug.Log("Stopping music");
+            musicSource.Stop();
+        }
+    }
     public void PlayVictorySound()
     {
         sfxSource.PlayOneShot(victoryClip);
@@ -25,6 +54,9 @@ public class AudioManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+
+            musicSource.clip = backgroundMusic;
+            musicSource.loop = true;
         }
         else
         {
@@ -33,9 +65,12 @@ public class AudioManager : MonoBehaviour
     }
     private void Start()
     {
-        musicSource.clip = backgroundMusic;
-        musicSource.loop = true;
-        musicSource.Play();
+        Scene currentScene = SceneManager.GetActiveScene();
+        
+        if (currentScene.name == "Level1" || currentScene.name == "Level2")
+        {
+            musicSource.Play();
+        }
     }
     public void StopMusic()
     {
