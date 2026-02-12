@@ -153,7 +153,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PegasusScript
   deathClip: {fileID: 8300000, guid: 7663dc20d659da049bbb7b00de24bffd, type: 3}
   speed: 5
-  lifetime: 10
+  lifetime: 8
 --- !u!82 &3946566991716007525
 AudioSource:
   m_ObjectHideFlags: 0
