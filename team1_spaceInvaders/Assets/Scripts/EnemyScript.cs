@@ -2,12 +2,65 @@ using UnityEngine;
 
 public class EnemyScript : MonoBehaviour
 {
+    [Header("Audio")]
+    public AudioClip shootClip;
+    public AudioClip deathClip;
+
+    private AudioSource audioSource;
+
+    public GameObject projectile;
+
+    private float rayDistance = 10f;
+    public LayerMask enemyLayer;
+
+    public float enemyFireRate = 0.2f;
+    private float timer = 0f;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Update()
+    {
+        if (IsLowest())
+        {
+            timer += Time.deltaTime;
+
+            if (timer >= 1f)
+            {
+                timer = 0f; // reset timer
+
+                if (Random.value < enemyFireRate)
+                {
+                    Instantiate(projectile, transform.position, transform.rotation);
+                    audioSource.PlayOneShot(shootClip);
+                }
+            }
+        }
+    }
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("projectile"))
+        if (other.CompareTag("Projectile"))
         {
+            AudioManager.instance.PlaySFX(deathClip);
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
+    }
+    public bool IsLowest()
+    {
+        BoxCollider2D col = GetComponent<BoxCollider2D>();
+
+        Vector2 rayStart = new Vector2(transform.position.x, transform.position.y - col.bounds.extents.y - 0.05f);
+
+        RaycastHit2D hit = Physics2D.Raycast(rayStart, Vector2.down, rayDistance, enemyLayer);
+
+        if (hit.collider != null)
+        {
+            return false;
+        }
+
+        return true;
     }
 }

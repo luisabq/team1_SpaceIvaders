@@ -17,9 +17,20 @@ public class PlayerScript : MonoBehaviour
 
     private float counter;
 
+    public Sprite readySprite;
+    public Sprite notReadySprite;
+
+    private SpriteRenderer spriteRenderer;
+
+    [Header("Audio")]
+    public AudioClip shootClip;
+    private AudioSource audioSource;
+
     private void Start()
     {
         counter = fireDelay;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -35,6 +46,15 @@ public class PlayerScript : MonoBehaviour
 
         transform.Translate(Vector3.right * moveInput * speed * Time.deltaTime);
 
+        if (moveInput > 0)
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (moveInput < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+
         Vector3 pos = transform.position;
         pos.x = Mathf.Clamp(pos.x, -limit, limit);
         transform.position = pos;
@@ -43,6 +63,16 @@ public class PlayerScript : MonoBehaviour
         {
             counter = 0f;
             Instantiate(projectile, transform.position, transform.rotation);
+            audioSource.PlayOneShot(shootClip);
+        }
+
+        if (counter >= fireDelay)
+        {
+            spriteRenderer.sprite = readySprite;
+        }
+        else
+        {
+            spriteRenderer.sprite = notReadySprite;
         }
     }
 }

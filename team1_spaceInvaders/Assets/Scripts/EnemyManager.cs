@@ -46,5 +46,14 @@ public class EnemyManager : MonoBehaviour
         }
 
         dropping = false;
+
+        bool faceRight = direction > 0;
+
+        foreach (SpriteRenderer sr in GetComponentsInChildren<SpriteRenderer>())
+        {
+            sr.flipX = !faceRight;
+        }
+
+        dropping = false;
     }
 }

@@ -7,6 +7,15 @@ public class ProjectileScript : MonoBehaviour
     public float lifetime = 3f;
     private float counter = 0f;
 
+    private ScoreManager scoreManager;
+    private NextLevelManager nextLevelManager;
+
+    void Start()
+    {
+        scoreManager = FindAnyObjectByType<ScoreManager>();
+        nextLevelManager = FindAnyObjectByType<NextLevelManager>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -18,11 +27,26 @@ public class ProjectileScript : MonoBehaviour
             Destroy(gameObject);
         }
     }
-        private void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (!collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("EnemyProjectile"))
         {
             Destroy(gameObject);
+            Destroy(other.gameObject);
+            scoreManager.AddScore(10);
+        }
+        if (other.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+            scoreManager.AddScore(5);
+            nextLevelManager.SubtractOne();
+        }
+        if (other.CompareTag("Pegasus"))
+        {
+            Destroy(gameObject);
+            Destroy(other.gameObject);
+            scoreManager.AddScore(100);
         }
     }
 }
