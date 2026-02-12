@@ -8,10 +8,12 @@ public class ProjectileScript : MonoBehaviour
     private float counter = 0f;
 
     private ScoreManager scoreManager;
+    private NextLevelManager nextLevelManager;
 
     void Start()
     {
         scoreManager = FindAnyObjectByType<ScoreManager>();
+        nextLevelManager = FindAnyObjectByType<NextLevelManager>();
     }
 
     // Update is called once per frame
@@ -38,6 +40,7 @@ public class ProjectileScript : MonoBehaviour
             Destroy(gameObject);
             Destroy(other.gameObject);
             scoreManager.AddScore(5);
+            nextLevelManager.SubtractOne();
         }
         if (other.CompareTag("Pegasus"))
         {
